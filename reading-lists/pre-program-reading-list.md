@@ -227,10 +227,15 @@ In CS education, transfer is the difference between students who can only solve 
 
 ---
 
-## Theme 7 — Cybersecurity Education (Your Specialization)
+## Theme 7 — Cybersecurity Education: Your Distinctive Research Trajectory
 *HPL2 connection: Learning in authentic contexts — where the stakes and skills are real — produces deeper engagement and transfer.*
 
-### Journal Articles
+> **CV Correlation Note:** This theme has been expanded to reflect your specific background and research trajectory. Unlike the generic cybersecurity education literature, your CV reveals four distinctive research angles that the field has barely addressed: (1) active learning pedagogy for security courses, (2) trauma-informed security for vulnerable populations, (3) cybersecurity as ethical stewardship and pastoral care, and (4) AI, disinformation, and security literacy. Each subsection maps directly to your teaching, professional experience, and in-preparation publications.
+
+---
+
+### 7A — Cybersecurity Pedagogy & Active Learning
+*CV connection: CPSC 250, CPSC 411 (Ethical Hacking, FA26), CPSC 420 (Cybersecurity for Developers) — "Education in Action" teaching philosophy*
 
 | # | Citation | Where to Find |
 |---|---|---|
@@ -240,15 +245,144 @@ In CS education, transfer is the difference between students who can only solve 
 | 7.4 | Jones, K. S., et al. (2020). A gender gap in cybersecurity: How it persists and how we can close it. *IEEE Security & Privacy, 18*(5). | IEEE Xplore |
 | 7.5 | Yue, C. (2011). Reviewing cybersecurity education in the United States. *Proceedings of SIGCSE Workshop on Education in Information Security*. | ACM Digital Library |
 
-**7.1 — Conklin et al. (2014):** Examines Cyber Defense Competitions (CDCs) as active learning environments. Directly relevant if you incorporate competitions into your cybersecurity courses.
+**7.1 — Conklin et al. (2014):** Cyber Defense Competitions as active learning — directly applicable to CPSC 411 Ethical Hacking. Your hands-on "Education in Action" philosophy is validated here empirically.
 
-**7.2 — Tobey et al. (2014):** Workforce pipeline research — what does industry need from CS security graduates, and how do academic programs address it?
+**7.2 — Tobey et al. (2014):** Workforce pipeline research mapping industry needs to curriculum. Grounds CPSC 420 (Cybersecurity for Developers) in what graduates actually need.
 
-**7.3 — Dark et al. (2006):** Applies problem-based learning (PBL) to security education — a pedagogical framework that aligns well with HPL2's emphasis on authentic contexts.
+**7.3 — Dark et al. (2006):** Problem-based learning in security education. The PBL framework aligns precisely with your stated educational philosophy of developing proficiency through real-world service projects.
 
-**7.4 — Jones et al. (2020):** Examines gender gaps specifically in cybersecurity — connects Theme 2 (identity and belonging) to your specialization.
+**7.4 — Jones et al. (2020):** Gender gap in cybersecurity — connects your equity-minded teaching approach to your specific discipline. Important for broadening participation in your own courses.
 
-**7.5 — Yue (2011):** Provides a landscape review of US cybersecurity education — useful for situating your teaching and research in the national conversation.
+**7.5 — Yue (2011):** Landscape review of US cybersecurity education — essential for situating your teaching and future research in the national conversation.
+
+---
+
+### 7B — Trauma-Informed Security & Vulnerable Populations
+*CV connection: Director of IT, Good Samaritan Boys Ranch (2016–2024) — HIPAA-compliant infrastructure for trauma-informed residential facility, security frameworks for high-risk youth and foster care. Future work: "Safeguarding Digital Lifestyles: Trauma-Informed Cybersecurity for Vulnerable Populations" and "Medical Advocacy and Digital Stewardship: Protecting the Aging Population."*
+
+> **Research gap alert:** This is the thinnest area of existing scholarship — which means it is your most original potential contribution. Very little peer-reviewed work applies trauma-informed care principles to cybersecurity education or practice. Your 8 years of direct practitioner experience at Good Samaritan Boys Ranch gives you a grounded, credible position from which to publish.
+
+#### Books
+
+| # | Title | Author(s) | Year | Tier |
+|---|---|---|---|---|
+| 7B.1 | *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach* | Substance Abuse & Mental Health Services Administration | 2014 | ⭐⭐⭐ |
+| 7B.2 | *Principles of Information Security* (7th ed.) | Whitman & Mattord | 2021 | ⭐⭐ |
+
+**7B.1 — SAMHSA (2014):** The foundational federal document defining trauma-informed care across service systems. Free PDF from samhsa.gov. If your research is going to apply trauma-informed principles to security contexts, this is the theoretical foundation you must know cold. Read it analytically — it is your bridge document between your Good Samaritan Boys Ranch experience and your scholarly argument.
+
+**7B.2 — Whitman & Mattord (2021):** Standard comprehensive information security textbook. Grounds your teaching in the canonical framework of the field — important as you build toward the ISC2 full certification.
+
+#### Journal Articles
+
+| # | Citation | Where to Find |
+|---|---|---|
+| 7B.3 | Nobles, C. (2022). Stress, burnout, and security fatigue in cybersecurity: A human factors problem. *HOLISTICA — Journal of Business and Public Administration, 13*(2), 79–106. | Freely available online |
+| 7B.4 | Madden, M., Gilman, M., Levy, K., & Marwick, A. (2017). Privacy, poverty, and big data: A tale of three cities. *Washington University Law Review, 94*(1), 53–125. | Washington University Law Review online |
+| 7B.5 | Wash, R. (2010). Folk models of home computer security. *Proceedings of the Symposium on Usable Privacy and Security (SOUPS)*. | ACM Digital Library |
+| 7B.6 | Finn, J. (2004). A survey of online harassment at a university campus. *Journal of Interpersonal Violence, 19*(4), 468–483. | SAGE Journals |
+
+**7B.3 — Nobles (2022):** Examines human factors — stress, fatigue, and burnout — in cybersecurity contexts. Frames security as a human problem, not just a technical one. Foundational for arguing that vulnerable populations require trauma-aware security approaches.
+
+**7B.4 — Madden et al. (2017):** Landmark study on how poverty and marginalization intersect with privacy and data vulnerability. Directly relevant to the populations served at Good Samaritan Boys Ranch and to your future work on vulnerable populations. This is the paper that makes the case your research niche matters.
+
+**7B.5 — Wash (2010):** Documents how non-expert users form mental models ("folk models") about security threats — and why those models lead to poor security decisions. Essential for understanding how to teach security to non-technical or vulnerable populations.
+
+**7B.6 — Finn (2004):** Early empirical study of online harassment in institutional settings. Relevant to understanding how digital harm manifests in communities you serve — youth, immigrant populations, congregation members.
+
+---
+
+### 7C — Cybersecurity Ethics, Faith Integration & Stewardship
+*CV connection: Teaching & Faith Integration section; "Integration of Faith and Learning" teaching philosophy; publications — "The Digital Sanctuary: Cybersecurity as Pastoral Care," "The Breath of Logic: A Pentecostal Pneumatology of AI"; Director of Technical Services, Central Assembly of God; ordained minister, Assemblies of God; Association for Christians in the Mathematical Sciences.*
+
+> **Research gap alert:** The intersection of cybersecurity and pastoral/faith-based care is almost entirely absent from academic literature. Your publication trajectory — "The Digital Sanctuary" and "Safeguarding Digital Lifestyles" — is original scholarship. The sources below give you the theoretical vocabulary (faith-learning integration, technology stewardship, Christian ethics of computing) to frame that work academically.
+
+#### Books
+
+| # | Title | Author(s) | Year | Tier |
+|---|---|---|---|---|
+| 7C.1 | *Shaping a Digital World: Faith, Culture and Computer Technology* | Derek C. Schuurman | 2013 | ⭐⭐⭐ |
+| 7C.2 | *iGods: How Technology Shapes Our Spiritual and Social Lives* | Craig Detweiler | 2013 | ⭐⭐⭐ |
+| 7C.3 | *Christianity and Moral Identity in Higher Education* | Glanzer & Ream | 2009 | ⭐⭐ |
+| 7C.4 | *The Idea of a Christian College* (Rev. ed.) | Arthur F. Holmes | 1987 | ⭐⭐ |
+
+**7C.1 — Schuurman (2013):** The most direct scholarly treatment of Christian faith applied to computing and technology. Schuurman is an engineer and Reformed theologian — his framework for "technology as cultural mandate" gives you academic language for what your teaching philosophy already embodies. Read this before writing any section of your dissertation that touches faith-technology integration.
+
+**7C.2 — Detweiler (2013):** Media scholar and theologian examining how digital technology reshapes spiritual formation and community. Directly relevant to your role at Central Assembly of God and your "Digital Sanctuary" research trajectory. More accessible than Schuurman; pair them.
+
+**7C.3 — Glanzer & Ream (2009):** Empirical and theoretical treatment of how Christian identity shapes moral formation in higher education. Grounds your Pentecostal pedagogical framework in broader faith-learning scholarship — important for contextualizing your work at Evangel.
+
+**7C.4 — Holmes (1987):** The foundational text on the idea of a Christian college — still the most cited work in faith-learning integration literature. Short (under 100 pages). Read it early; it frames everything else in this subsection.
+
+#### Journal Articles
+
+| # | Citation | Where to Find |
+|---|---|---|
+| 7C.5 | Badley, K. (2009). Rethinking faith-learning integration: Seeking coherence. *Christian Scholar's Review, 38*(3), 263–279. | Christian Scholar's Review online |
+| 7C.6 | Schuurman, D. C. (2013). Artificial intelligence: Discerning a Christian response. *Perspectives on Science and Christian Faith, 65*(3), 171–181. | American Scientific Affiliation |
+| 7C.7 | Kenneally, E., & Bailey, M. (2014). Cyber-security research ethics dialogue: A step toward shared and sustainable norms. *IEEE Security & Privacy, 12*(3), 60–70. | IEEE Xplore |
+| 7C.8 | Dark, M. J. (2011). Ethics education in cybersecurity: Reflections and recommendations. *Journal of Cybersecurity Education, Research and Practice, 2011*(1). | Kennesaw State University |
+
+**7C.5 — Badley (2009):** Critiques shallow models of faith-learning integration and proposes a more coherent framework. Important for strengthening the theoretical basis of your own integration approach beyond "applying faith to curriculum."
+
+**7C.6 — Schuurman (2013):** Specifically on AI and Christian discernment — directly relevant to your published article *"Is it Real? Authenticity and Discernment in the Age of Generative AI"* and your in-preparation work on Pentecostal pneumatology and AI. Read this alongside your own publication to see how your argument extends the conversation.
+
+**7C.7 — Kenneally & Bailey (2014):** Scholarly treatment of ethics norms in cybersecurity research — how does the security research community think about ethical responsibility? Important for situating your faith-based ethics framework within the secular scholarly conversation.
+
+**7C.8 — Dark (2011):** Directly addresses ethics education within cybersecurity curricula. Connects your ethics integration philosophy (from your CV Teaching section) to what the field has formally studied.
+
+---
+
+### 7D — AI, Disinformation & Digital Security Literacy
+*CV connection: Published — "Is it Real? Authenticity and Discernment in the Age of Generative AI" (2025/2026). In preparation — "The Breath of Logic: A Pentecostal Pneumatology of AI," "Digital Tongues: AI-Driven Missionary Strategy." Certifications — Claude Code in Action (Anthropic, 2026), Career Essentials in Generative AI (Microsoft, 2023), Ethics in the Age of Generative AI (LinkedIn, 2023). LASO certification (Missouri Highway Patrol/CJIS, 2023–2024).*
+
+> **Positioning note:** You are one of a very small number of CS educators with published work at the intersection of AI discernment, Pentecostal theology, and security literacy. This subsection provides the secular scholarly infrastructure — disinformation research, AI ethics frameworks, digital literacy — that contextualizes your theological contributions in academic terms.
+
+#### Books
+
+| # | Title | Author(s) | Year | Tier |
+|---|---|---|---|---|
+| 7D.1 | *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality* | Luciano Floridi | 2014 | ⭐⭐ |
+
+**7D.1 — Floridi (2014):** Oxford philosopher of information — the most rigorous secular framework for thinking about how digital environments reshape human identity, community, and knowledge. Your theological work on AI is already in conversation with this framework whether you cite it or not. Reading it makes the conversation explicit.
+
+#### Journal Articles
+
+| # | Citation | Where to Find |
+|---|---|---|
+| 7D.2 | Floridi, L., et al. (2018). AI4People — An ethical framework for a good AI society: Opportunities, risks, principles, and recommendations. *Minds and Machines, 28*(4), 689–707. | Springer Open Access |
+| 7D.3 | Chesney, R., & Citron, D. K. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. *California Law Review, 107*(6), 1753–1820. | California Law Review online |
+| 7D.4 | Wardle, C., & Derakhshan, H. (2017). *Information disorder: Toward an interdisciplinary framework for research and policy making*. Council of Europe Report. | Council of Europe (free PDF) |
+| 7D.5 | Brundage, M., et al. (2018). The malicious use of artificial intelligence: Forecasting, prevention, and mitigation. *Future of Humanity Institute, University of Oxford*. | Freely available at arxiv.org |
+
+**7D.2 — Floridi et al. (2018):** The AI4People framework — a secular, European ethical framework for AI that covers beneficence, non-maleficence, autonomy, justice, and explicability. Gives you the standard academic vocabulary for AI ethics debates your theological work must engage with.
+
+**7D.3 — Chesney & Citron (2019):** The definitive legal-academic treatment of deepfakes and synthetic media — directly relevant to your published article on authenticity and discernment in generative AI. Reading this shows you how legal scholars frame the problem your theological essay addresses.
+
+**7D.4 — Wardle & Derakhshan (2017):** The most widely cited framework for categorizing information disorder (misinformation, disinformation, malinformation). Essential vocabulary for your "Is it Real?" research trajectory and for teaching students to evaluate AI-generated content.
+
+**7D.5 — Brundage et al. (2018):** Oxford/Cambridge/OpenAI joint paper on how AI can be weaponized for cyberattacks, disinformation, and surveillance. Connects your AI literacy interests to your cybersecurity specialization — this is where those two threads in your CV meet.
+
+---
+
+### 7E — Compliance Frameworks, Organizational Security & Governance
+*CV connection: Quality Assurance & Clinical Tech (1993–2014) — FDA/GMP/GDP compliance, Six Sigma, viral safety in clinical environments. Director of IT, Good Samaritan Boys Ranch — HIPAA-compliant infrastructure. LASO certification — CJIS compliance. Director of Technical Services, Central Assembly of God — organizational security governance.*
+
+> **Research angle:** Your QA/compliance background is a methodological asset most CS education researchers don't have. The documentation discipline of GMP/GDP (every action recorded, every deviation investigated, every process validated) maps directly onto rigorous research design. These sources help you translate that professional fluency into academic framing.
+
+#### Journal Articles
+
+| # | Citation | Where to Find |
+|---|---|---|
+| 7E.1 | Siponen, M., & Vance, A. (2010). Neutralization: New insights into the problem of employee information systems security policy violations. *MIS Quarterly, 34*(3), 487–502. | MIS Quarterly online |
+| 7E.2 | Bulgurcu, B., Cavusoglu, H., & Benbasat, I. (2010). Information security policy compliance: An empirical study of rationality-based beliefs and information security awareness. *MIS Quarterly, 34*(3), 523–548. | MIS Quarterly online |
+| 7E.3 | Crossler, R. E., et al. (2013). Future directions for behavioral information security research. *Computers & Security, 32*, 90–101. | ScienceDirect |
+
+**7E.1 — Siponen & Vance (2010):** Why employees violate security policies even when they know better — the human compliance gap. Your GMP/GDP background will give you a practitioner's reading of this; use it to bridge your QA expertise into security education research.
+
+**7E.2 — Bulgurcu et al. (2010):** Landmark study on what makes security policy compliance happen in organizations. Connects compliance theory to your operational experience designing security frameworks at Good Samaritan and Central Assembly.
+
+**7E.3 — Crossler et al. (2013):** Research agenda for behavioral security — argues that human behavior, not technology, is the frontier of security research. Positions your people-centered, stewardship-oriented approach as aligned with the field's leading edge.
 
 ---
 
@@ -266,6 +400,10 @@ Subscribe to or set up Google Scholar alerts for these publications:
 | **IEEE Transactions on Education** | Engineering & CS education | IEEE Xplore (institutional) |
 | **Journal of Educational Computing Research** | Broad computing in education | SAGE Journals (institutional) |
 | **IEEE Security & Privacy** | Security education and practice | IEEE Xplore (institutional) |
+| **Computers & Security** | Behavioral & organizational security research | ScienceDirect (institutional) |
+| **Christian Scholar's Review** | Faith-learning integration in higher education | CSR online (free access) |
+| **Perspectives on Science and Christian Faith** | Faith, science & technology ethics | American Scientific Affiliation |
+| **MIS Quarterly** | Information systems, compliance, human behavior | MIS Quarterly online |
 
 ---
 
@@ -352,9 +490,17 @@ Phase 3 — Pedagogy & Curriculum (July–August 2026)
   Articles: 4.3, 4.4, 6.4, 5.2
 
 Phase 4 — Your Specialization (August 2026)
-  Articles: 7.1, 7.2, 7.3, 7.4, 7.5
+  Read:  SAMHSA Trauma-Informed Approach             [7B.1] — free PDF
+  Read:  Schuurman, Shaping a Digital World          [7C.1]
+  Read:  Detweiler, iGods                            [7C.2]
+  Read:  Holmes, The Idea of a Christian College     [7C.4]
   Read:  Understanding by Design                     [5.1]
+  Articles: 7.1–7.5 (pedagogy), 7B.3–7B.6 (trauma/vulnerable)
+  Articles: 7C.5–7C.8 (faith-ethics), 7D.2–7D.5 (AI/disinformation)
+  Articles: 7E.1–7E.3 (compliance/governance)
   Inspectional read: HPL (original, 2000)            [1.3]
+  Inspectional read: Floridi, The Fourth Revolution  [7D.1]
+  Inspectional read: Whitman & Mattord               [7B.2]
 
 Ongoing — ICER Browsing (throughout, via SIGCSE membership)
   Browse ACM DL ICER proceedings by theme each month
@@ -367,7 +513,7 @@ Ongoing — ICER Browsing (throughout, via SIGCSE membership)
 
 ## Summary — Full Reading List
 
-### Books (12 total)
+### Books (19 total)
 
 | # | Title | Author(s) | Year | Tier |
 |---|---|---|---|---|
@@ -383,8 +529,15 @@ Ongoing — ICER Browsing (throughout, via SIGCSE membership)
 | 4.1 | *Creating Significant Learning Experiences* | Fink | 2003 | ⭐⭐⭐ |
 | 4.2 | *What the Best College Teachers Do* | Bain | 2004 | ⭐⭐ |
 | 5.1 | *Understanding by Design* (2nd ed.) | Wiggins & McTighe | 2005 | ⭐⭐ |
+| 7B.1 | *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach* | SAMHSA | 2014 | ⭐⭐⭐ |
+| 7B.2 | *Principles of Information Security* (7th ed.) | Whitman & Mattord | 2021 | ⭐⭐ |
+| 7C.1 | *Shaping a Digital World: Faith, Culture and Computer Technology* | Schuurman | 2013 | ⭐⭐⭐ |
+| 7C.2 | *iGods: How Technology Shapes Our Spiritual and Social Lives* | Detweiler | 2013 | ⭐⭐⭐ |
+| 7C.3 | *Christianity and Moral Identity in Higher Education* | Glanzer & Ream | 2009 | ⭐⭐ |
+| 7C.4 | *The Idea of a Christian College* (Rev. ed.) | Holmes | 1987 | ⭐⭐ |
+| 7D.1 | *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality* | Floridi | 2014 | ⭐⭐ |
 
-### Journal Articles (25 + 10 ICER Spotlight)
+### Journal Articles (38 + 10 ICER Spotlight)
 
 | # | Author(s) | Year | Venue |
 |---|---|---|---|
@@ -413,6 +566,21 @@ Ongoing — ICER Browsing (throughout, via SIGCSE membership)
 | 7.3 | Dark et al. | 2006 | ISECON |
 | 7.4 | Jones et al. | 2020 | IEEE Security & Privacy |
 | 7.5 | Yue | 2011 | SIGCSE Workshop |
+| 7B.3 | Nobles | 2022 | HOLISTICA Journal |
+| 7B.4 | Madden, Gilman, Levy & Marwick | 2017 | Washington University Law Review |
+| 7B.5 | Wash | 2010 | SOUPS |
+| 7B.6 | Finn | 2004 | Journal of Interpersonal Violence |
+| 7C.5 | Badley | 2009 | Christian Scholar's Review |
+| 7C.6 | Schuurman | 2013 | Perspectives on Science and Christian Faith |
+| 7C.7 | Kenneally & Bailey | 2014 | IEEE Security & Privacy |
+| 7C.8 | Dark | 2011 | Journal of Cybersecurity Education |
+| 7D.2 | Floridi et al. | 2018 | Minds and Machines |
+| 7D.3 | Chesney & Citron | 2019 | California Law Review |
+| 7D.4 | Wardle & Derakhshan | 2017 | Council of Europe Report |
+| 7D.5 | Brundage et al. | 2018 | Future of Humanity Institute |
+| 7E.1 | Siponen & Vance | 2010 | MIS Quarterly |
+| 7E.2 | Bulgurcu, Cavusoglu & Benbasat | 2010 | MIS Quarterly |
+| 7E.3 | Crossler et al. | 2013 | Computers & Security |
 
 ---
 
@@ -430,4 +598,5 @@ Ongoing — ICER Browsing (throughout, via SIGCSE membership)
 
 *Professor Maine | Evangel University | Doctoral Project*  
 *Generated: May 2026 | Based on discussion of HPL2 themes*  
-*Last updated: May 2026*
+*Updated: May 2026 — Theme 7 expanded and correlated with Professor Maine's CV*  
+*CV correlation: Adjunct Professor (2020–present), Director of IT Good Samaritan Boys Ranch (2016–2024), Director of Technical Services Central Assembly of God (2024–present), QA/Clinical Tech (1993–2014), Ordained Minister (AG), ISC2 Candidate, SIGCSE Member*
