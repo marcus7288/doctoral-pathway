@@ -19,7 +19,7 @@ This reading list is organized around the seven major themes of *How People Lear
 | ⭐⭐ | Important | Read analytically — can extend into Year 1 coursework |
 | ⭐ | Recommended | Inspectional read now; return analytically as relevant |
 
-**Suggested sequence:** Read the anchor text (HPL2) first. Then move theme by theme, pairing one book with 2–3 articles before moving on. Log all sessions in your [weekly study log](../independent-study/).
+**Suggested sequence:** Read the anchor text (HPL2) first. Then move theme by theme, pairing one book with 2–3 articles before moving on. Log all sessions in your [weekly study log](../independent-study/Pre-Program/weekly-log.md).
 
 ---
 
