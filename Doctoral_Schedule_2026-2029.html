@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doctoral Program — 3-Year Schedule (Fall 2026–Summer 2029)</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+  :root {
+    --navy: #1F3864;
+    --blue: #2E5D9E;
+    --light-blue: #D6E4F7;
+    --med-blue: #BDD7EE;
+    --year1: #E2EFDA;
+    --year2: #FFF2CC;
+    --year3: #FCE4D6;
+    --gray: #595959;
+    --light-gray: #F2F2F2;
+    --white: #FFFFFF;
+    --border: #CCCCCC;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 11pt;
+    color: #222;
+    background: #f0f2f5;
+    padding: 20px;
+  }
+
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    padding: 0;
+  }
+
+  /* Header band */
+  .doc-header {
+    background: var(--navy);
+    color: white;
+    padding: 10px 40px;
+    font-size: 9pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Title block */
+  .title-block {
+    padding: 48px 48px 32px;
+    border-bottom: 3px solid var(--blue);
+  }
+  .title-block h1 {
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+  }
+  .title-block .subtitle {
+    font-size: 16pt;
+    color: var(--blue);
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .title-block .meta {
+    font-size: 11pt;
+    color: var(--gray);
+    font-style: italic;
+    margin-top: 8px;
+  }
+  .title-block .author {
+    font-size: 10pt;
+    color: var(--gray);
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+
+  /* Main content area */
+  .content { padding: 32px 48px; }
+
+  /* Color legend */
+  .legend {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 16px 0 24px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10pt;
+  }
+  .legend-swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+
+  /* Section headings */
+  h2.year-heading {
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 36px 0 6px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--blue);
+  }
+  h3.semester-heading {
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--blue);
+    margin: 24px 0 10px;
+  }
+  h2.section-heading {
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 36px 0 6px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--blue);
+  }
+  h3.sub-heading {
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--blue);
+    margin: 24px 0 8px;
+  }
+
+  p.body-text {
+    line-height: 1.65;
+    color: #333;
+    margin-bottom: 12px;
+    font-size: 10.5pt;
+  }
+
+  /* Schedule tables */
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    font-size: 10pt;
+  }
+  .schedule-table thead tr {
+    background: var(--navy);
+    color: white;
+  }
+  .schedule-table thead th {
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 10pt;
+    border: 1px solid #aaa;
+  }
+  .schedule-table tbody tr:nth-child(odd) {
+    background: var(--row-bg, var(--light-gray));
+  }
+  .schedule-table tbody tr:nth-child(even) {
+    background: white;
+  }
+  .schedule-table td {
+    padding: 10px 12px;
+    vertical-align: top;
+    border: 1px solid var(--border);
+    line-height: 1.5;
+  }
+  .schedule-table td.sem-label {
+    font-weight: 700;
+    white-space: nowrap;
+    color: var(--navy);
+    font-size: 10pt;
+  }
+  .schedule-table td ul {
+    padding-left: 16px;
+    margin: 0;
+  }
+  .schedule-table td ul li {
+    margin-bottom: 4px;
+    line-height: 1.45;
+  }
+  .schedule-table td .milestone-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 5px;
+  }
+  .schedule-table td .milestone-item::before {
+    content: "✓";
+    color: var(--blue);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* Year color classes */
+  .year1-table tbody tr:nth-child(odd) { background: var(--year1); }
+  .year2-table tbody tr:nth-child(odd) { background: var(--year2); }
+  .year3-table tbody tr:nth-child(odd) { background: var(--year3); }
+
+  /* Milestone summary table */
+  .milestone-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 10pt;
+  }
+  .milestone-table thead tr {
+    background: var(--navy);
+    color: white;
+  }
+  .milestone-table thead th {
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid #aaa;
+  }
+  .milestone-table tbody tr:nth-child(odd) { background: var(--light-blue); }
+  .milestone-table tbody tr:nth-child(even) { background: white; }
+  .milestone-table td {
+    padding: 9px 14px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .milestone-table td.date-col { font-weight: 600; white-space: nowrap; color: var(--navy); }
+  .milestone-table td.name-col { font-weight: 600; color: #333; }
+
+  /* Tips section */
+  ul.tips-list {
+    padding-left: 22px;
+    margin: 8px 0 16px;
+  }
+  ul.tips-list li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    font-size: 10.5pt;
+  }
+
+  /* Quote block */
+  .quote-block {
+    border-top: 3px solid var(--navy);
+    border-bottom: 3px solid var(--navy);
+    text-align: center;
+    padding: 20px;
+    margin: 36px 0 16px;
+    color: var(--gray);
+    font-style: italic;
+    font-size: 12pt;
+  }
+
+  /* Page footer */
+  .doc-footer {
+    background: var(--navy);
+    color: white;
+    padding: 10px 40px;
+    font-size: 9pt;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  /* TOC */
+  .toc {
+    background: var(--light-gray);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 20px 28px;
+    margin: 20px 0 32px;
+  }
+  .toc h3 { color: var(--navy); font-size: 13pt; margin-bottom: 12px; }
+  .toc a { color: var(--blue); text-decoration: none; font-size: 10.5pt; line-height: 2; display: block; }
+  .toc a:hover { text-decoration: underline; }
+  .toc .toc-sub { padding-left: 20px; font-size: 10pt; }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; max-width: 100%; }
+    .doc-header, .doc-footer { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    thead { display: table-header-group; }
+    tr { page-break-inside: avoid; }
+    h2.year-heading, h2.section-heading { page-break-before: always; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Document Header Band -->
+  <div class="doc-header">
+    <span>Doctoral Program — 3-Year Schedule (Fall 2026–Summer 2029)</span>
+    <span>Professor Maine &nbsp;•&nbsp; Evangel University</span>
+  </div>
+
+  <!-- Title Block -->
+  <div class="title-block">
+    <div class="subtitle">3-Year Schedule &amp; Milestone Framework</div>
+    <h1>DOCTORAL PROGRAM</h1>
+    <div class="meta">Fall 2026 – Summer 2029</div>
+    <div class="author">Professor Maine &nbsp;•&nbsp; Evangel University &nbsp;•&nbsp; Prepared May 2026</div>
+  </div>
+
+  <div class="content">
+
+    <!-- Overview -->
+    <h2 class="section-heading" id="overview">Overview</h2>
+    <p class="body-text">This document provides a comprehensive semester-by-semester schedule for completing a doctoral program in three years, beginning Fall 2026. While specific program structures vary by institution and discipline (EdD, PhD), this framework reflects standard milestones shared across most doctoral programs: coursework, comprehensive examinations, dissertation proposal, research, and final defense.</p>
+    <p class="body-text">The schedule is designed to be adapted to your specific program requirements. Review it with your faculty advisor during your first semester and adjust timelines to match your program's handbook.</p>
+    <p class="body-text"><strong>Color coding:</strong></p>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-swatch" style="background:#E2EFDA;"></div> Year 1 (Green) — Foundations &amp; Coursework</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:#FFF2CC;"></div> Year 2 (Gold) — Advanced Study &amp; Qualifying Exams</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:#FCE4D6;"></div> Year 3 (Peach) — Dissertation Research, Writing &amp; Defense</div>
+    </div>
+
+    <!-- TOC -->
+    <div class="toc">
+      <h3>Table of Contents</h3>
+      <a href="#year1">Year 1 — Foundations &amp; Coursework (2026–2027)</a>
+      <a href="#year2">Year 2 — Advanced Study &amp; Qualifying Exams (2027–2028)</a>
+      <a href="#year3">Year 3 — Dissertation Research, Writing &amp; Defense (2028–2029)</a>
+      <a href="#milestones">Key Milestones at a Glance</a>
+      <a href="#tips">Tips for Doctoral Success</a>
+    </div>
+
+    <!-- ── YEAR 1 ── -->
+    <h2 class="year-heading" id="year1">Year 1 — Foundations &amp; Coursework (2026–2027)</h2>
+    <p class="body-text">Year 1 focuses on orientation to doctoral-level scholarship, beginning coursework, forming key relationships with faculty, and laying the groundwork for your research area. By the end of Year 1, you should have completed approximately one-third of required coursework and identified a preliminary research focus.</p>
+
+    <h3 class="semester-heading">Fall 2026 — Program Entry</h3>
+    <table class="schedule-table year1-table">
+      <thead>
+        <tr>
+          <th style="width:13%">Semester</th>
+          <th style="width:18%">Focus Area</th>
+          <th style="width:42%">Key Activities</th>
+          <th style="width:27%">Milestones / Deliverables</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="sem-label">Fall 2026</td>
+          <td>Program Entry &amp; Orientation</td>
+          <td><ul>
+            <li>Attend doctoral orientation and program kickoff</li>
+            <li>Meet with faculty advisor to review degree plan</li>
+            <li>Enroll in 2–3 core courses (typically 6–9 credit hours)</li>
+            <li>Review program handbook and dissertation requirements</li>
+            <li>Join scholarly professional organizations in your field</li>
+            <li>Set up citation management software (Zotero/Mendeley)</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item">Signed degree plan on file with advisor</div>
+            <div class="milestone-item">Established weekly meeting cadence with advisor</div>
+            <div class="milestone-item">Begin building annotated bibliography in research area</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="sem-label">Spring 2027</td>
+          <td>Coursework &amp; Literature Immersion</td>
+          <td><ul>
+            <li>Continue core coursework (6–9 credit hours)</li>
+            <li>Attend at least one academic conference or symposium</li>
+            <li>Begin reading seminal literature in your research area</li>
+            <li>Identify potential dissertation committee members</li>
+            <li>Draft a preliminary research interest statement (3–5 pages)</li>
+            <li>Complete any required research methods or stats coursework</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item">Research interest statement reviewed by advisor</div>
+            <div class="milestone-item">Provisional list of committee candidates</div>
+            <div class="milestone-item">Conference attendance or professional development log</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="sem-label">Summer 2027</td>
+          <td>Independent Study &amp; Research Prep</td>
+          <td><ul>
+            <li>Summer reading list: 15–20 foundational texts in your area</li>
+            <li>Enroll in independent study or elective (3 credit hours)</li>
+            <li>Begin drafting a literature review outline</li>
+            <li>Attend summer institute or workshop if available</li>
+            <li>Review comprehensive exam requirements with advisor</li>
+            <li>Draft Year 2 course plan and confirm committee members</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item">Literature review outline (10–15 pages)</div>
+            <div class="milestone-item">Finalized committee membership confirmed</div>
+            <div class="milestone-item">Year 2 plan approved by advisor</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ── YEAR 2 ── -->
+    <h2 class="year-heading" id="year2">Year 2 — Advanced Study &amp; Qualifying Exams (2027–2028)</h2>
+    <p class="body-text">Year 2 marks the transition from student to scholar. The focus shifts from consuming knowledge to producing it. Completing required coursework, passing comprehensive examinations, and defending a dissertation proposal are the defining milestones of this year.</p>
+
+    <table class="schedule-table year2-table">
+      <thead>
+        <tr>
+          <th style="width:13%">Semester</th>
+          <th style="width:18%">Focus Area</th>
+          <th style="width:42%">Key Activities</th>
+          <th style="width:27%">Milestones / Deliverables</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="sem-label">Fall 2027</td>
+          <td>Advanced Coursework &amp; Committee Work</td>
+          <td><ul>
+            <li>Complete advanced coursework (6–9 credit hours)</li>
+            <li>Formally convene dissertation committee (first meeting)</li>
+            <li>Expand literature review to 40–50 sources</li>
+            <li>Identify research methodology and design framework</li>
+            <li>Submit advancement to candidacy forms (if applicable)</li>
+            <li>Present research interest at departmental colloquium if available</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item">Official committee formation paperwork filed</div>
+            <div class="milestone-item">Expanded literature review draft (25–30 pages)</div>
+            <div class="milestone-item">Research methodology framework documented</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="sem-label">Spring 2028</td>
+          <td>Comprehensive Exams &amp; Proposal Writing</td>
+          <td><ul>
+            <li>Complete remaining required coursework (final semester of classes)</li>
+            <li>Prepare for and sit comprehensive/qualifying examinations</li>
+            <li>Begin writing Ch. 1 (Introduction) and Ch. 2 (Literature Review)</li>
+            <li>Develop research questions and theoretical framework</li>
+            <li>Schedule dissertation proposal defense (late spring or early summer)</li>
+            <li>Apply for IRB approval if needed</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item"><strong>Comprehensive examinations PASSED</strong></div>
+            <div class="milestone-item">Dissertation proposal draft (Ch. 1–2 + methodology overview)</div>
+            <div class="milestone-item">IRB application submitted or approved</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="sem-label">Summer 2028</td>
+          <td>Proposal Defense &amp; ABD Status</td>
+          <td><ul>
+            <li>Defend dissertation proposal before committee</li>
+            <li>Revise proposal based on committee feedback</li>
+            <li>Achieve All But Dissertation (ABD) status</li>
+            <li>Finalize IRB approval and research instruments</li>
+            <li>Begin data collection or archival/primary source work</li>
+            <li>Enroll in dissertation hours (ongoing from this point)</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item"><strong>Proposal defense PASSED</strong></div>
+            <div class="milestone-item"><strong>ABD status officially conferred</strong></div>
+            <div class="milestone-item">Data collection commenced</div>
+            <div class="milestone-item">IRB fully approved</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ── YEAR 3 ── -->
+    <h2 class="year-heading" id="year3">Year 3 — Dissertation Research, Writing &amp; Defense (2028–2029)</h2>
+    <p class="body-text">Year 3 is defined by focused research, disciplined writing, and ultimately the defense of your dissertation. This is typically the most demanding year and requires close communication with your committee and consistent daily writing habits.</p>
+
+    <table class="schedule-table year3-table">
+      <thead>
+        <tr>
+          <th style="width:13%">Semester</th>
+          <th style="width:18%">Focus Area</th>
+          <th style="width:42%">Key Activities</th>
+          <th style="width:27%">Milestones / Deliverables</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="sem-label">Fall 2028</td>
+          <td>Data Collection &amp; Analysis</td>
+          <td><ul>
+            <li>Complete primary data collection</li>
+            <li>Analyze data using identified research methodology</li>
+            <li>Write Chapter 3 (Methodology) in full</li>
+            <li>Begin writing Chapter 4 (Results/Findings)</li>
+            <li>Attend dissertation writing group or writing boot camp</li>
+            <li>Present at one national/regional academic conference</li>
+            <li>Schedule mid-year committee check-in</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item"><strong>Data collection COMPLETED</strong></div>
+            <div class="milestone-item">Full Chapter 3 draft submitted to advisor</div>
+            <div class="milestone-item">Chapter 4 draft (partial) reviewed by committee</div>
+            <div class="milestone-item">Conference presentation delivered</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="sem-label">Spring 2029</td>
+          <td>Dissertation Writing &amp; Committee Review</td>
+          <td><ul>
+            <li>Complete Chapters 4 and 5 (Findings &amp; Discussion/Conclusions)</li>
+            <li>Submit full dissertation draft to committee for review</li>
+            <li>Incorporate committee feedback and revise all chapters</li>
+            <li>Finalize front matter (abstract, acknowledgments, TOC)</li>
+            <li>Submit dissertation to graduate school for format review</li>
+            <li>Schedule final dissertation defense (April or May 2029)</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item">Full dissertation draft submitted to committee</div>
+            <div class="milestone-item">Format check passed by graduate school</div>
+            <div class="milestone-item">Defense date scheduled and publicly announced</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="sem-label">Summer 2029</td>
+          <td>Defense &amp; Graduation</td>
+          <td><ul>
+            <li>Complete final revisions based on committee direction</li>
+            <li>Defend dissertation publicly before committee</li>
+            <li>Submit final approved dissertation to graduate school repository</li>
+            <li>Complete all graduation paperwork and clearances</li>
+            <li>Apply for graduation (Summer or Fall 2029 commencement)</li>
+            <li>Update CV and begin post-doctoral career steps</li>
+          </ul></td>
+          <td>
+            <div class="milestone-item"><strong>Dissertation defense PASSED</strong></div>
+            <div class="milestone-item">Final dissertation submitted to repository</div>
+            <div class="milestone-item"><strong>Degree conferred — Dr. Maine!</strong></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ── MILESTONE SUMMARY ── -->
+    <h2 class="section-heading" id="milestones">Key Milestones at a Glance</h2>
+    <p class="body-text">The following table summarizes every major milestone in the 3-year program. Use this as a quick-reference checklist to track your progress.</p>
+
+    <table class="milestone-table">
+      <thead>
+        <tr>
+          <th style="width:16%">Target Date</th>
+          <th style="width:26%">Milestone</th>
+          <th style="width:58%">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="date-col">Fall 2026</td><td class="name-col">Program Entry</td><td>Attend orientation, sign degree plan, begin coursework, establish advisor meetings</td></tr>
+        <tr><td class="date-col">Spring 2027</td><td class="name-col">Research Interest Stmt.</td><td>3–5 page statement of research interest reviewed and approved by advisor</td></tr>
+        <tr><td class="date-col">Summer 2027</td><td class="name-col">Committee Formed</td><td>Dissertation committee members identified and informally confirmed</td></tr>
+        <tr><td class="date-col">Fall 2027</td><td class="name-col">Committee Convened</td><td>First formal committee meeting held; paperwork filed with graduate school</td></tr>
+        <tr><td class="date-col">Fall 2027</td><td class="name-col">Literature Review Draft</td><td>25–30 page literature review draft shared with advisor</td></tr>
+        <tr><td class="date-col">Spring 2028</td><td class="name-col">Comprehensive Exams</td><td>All qualifying/comprehensive examinations passed</td></tr>
+        <tr><td class="date-col">Spring 2028</td><td class="name-col">IRB Application</td><td>IRB application submitted for research involving human subjects (if applicable)</td></tr>
+        <tr><td class="date-col">Summer 2028</td><td class="name-col">Proposal Defense</td><td>Dissertation proposal defended and approved; ABD status conferred</td></tr>
+        <tr><td class="date-col">Summer 2028</td><td class="name-col">Data Collection Begins</td><td>Research instruments finalized; data collection officially underway</td></tr>
+        <tr><td class="date-col">Fall 2028</td><td class="name-col">Data Collection Complete</td><td>All primary data collected and organized for analysis</td></tr>
+        <tr><td class="date-col">Fall 2028</td><td class="name-col">Chapter 3 Complete</td><td>Methodology chapter fully drafted and advisor-approved</td></tr>
+        <tr><td class="date-col">Spring 2029</td><td class="name-col">Full Draft to Committee</td><td>Complete dissertation draft submitted to all committee members for review</td></tr>
+        <tr><td class="date-col">Spring 2029</td><td class="name-col">Format Approval</td><td>Graduate school format/style review passed</td></tr>
+        <tr><td class="date-col">Spring 2029</td><td class="name-col">Defense Scheduled</td><td>Final defense date set and announced publicly</td></tr>
+        <tr><td class="date-col">Summer 2029</td><td class="name-col">Dissertation Defense</td><td>Oral defense passed; minor revisions (if any) assigned by committee</td></tr>
+        <tr><td class="date-col">Summer 2029</td><td class="name-col">Degree Conferred</td><td>Final dissertation submitted; graduation application complete; Dr. Maine!</td></tr>
+      </tbody>
+    </table>
+
+    <!-- ── TIPS ── -->
+    <h2 class="section-heading" id="tips">Tips for Doctoral Success</h2>
+
+    <h3 class="sub-heading">Advising &amp; Relationships</h3>
+    <p class="body-text">Your relationship with your faculty advisor is the single most important factor in doctoral completion. Meet regularly (at minimum bi-weekly), come prepared with written agendas, and keep a shared log of decisions and action items. Communicate proactively — silence is the most common source of delays.</p>
+    <p class="body-text">Build strong relationships with your entire committee. Their collective expertise shapes your research and their signatures unlock every major milestone.</p>
+
+    <h3 class="sub-heading">Writing Habits</h3>
+    <p class="body-text">Doctoral completion depends on writing consistency more than writing talent. Commit to daily writing — even 30 minutes at the same time each day — beginning in Year 1. Build the dissertation from your coursework papers, literature reviews, and seminar essays rather than treating it as a separate project that begins after classes end.</p>
+    <p class="body-text">Use a citation manager from Day 1. Retrofitting citations is among the most frustrating dissertation tasks. Zotero (free, open source) integrates well with Word and Google Docs.</p>
+
+    <h3 class="sub-heading">Managing the Timeline</h3>
+    <p class="body-text">Three-year completion is achievable but requires disciplined time management, especially given existing teaching responsibilities at Evangel. Key considerations:</p>
+    <ul class="tips-list">
+      <li>Summer terms are often the most productive writing periods — protect them from overcommitment</li>
+      <li>Teaching loads and service commitments will compete with dissertation time in Years 2–3; negotiate course releases if possible</li>
+      <li>Build buffer into every milestone — plan for committee review to take 4 weeks even if you hope for 2</li>
+      <li>Set internal deadlines 2–3 weeks ahead of any official deadlines</li>
+    </ul>
+
+    <h3 class="sub-heading">Technology &amp; Research Tools</h3>
+    <p class="body-text">Given your CS background and GitHub workflows, consider:</p>
+    <ul class="tips-list">
+      <li>Using Git to version-control your dissertation chapters — especially any data analysis scripts or code-adjacent research</li>
+      <li>Leveraging your existing technical strengths to strengthen your research methodology (computational methods, data analysis)</li>
+      <li>Exploring open-access publishing and pre-print repositories (arXiv, ERIC, OSF) to build your scholarly presence during the program</li>
+      <li>Using your cybersecurity expertise as a lens for research in CS education — it's a distinguishing angle that connects teaching and scholarship</li>
+    </ul>
+
+    <div class="quote-block">
+      "The secret of getting ahead is getting started." — Mark Twain
+    </div>
+
+  </div><!-- /content -->
+
+  <!-- Footer Band -->
+  <div class="doc-footer">
+    Doctoral Program — 3-Year Schedule (Fall 2026–Summer 2029) &nbsp;•&nbsp; Professor Maine &nbsp;•&nbsp; Evangel University &nbsp;•&nbsp; Prepared May 2026
+  </div>
+
+</div><!-- /page -->
+</body>
+</html>
