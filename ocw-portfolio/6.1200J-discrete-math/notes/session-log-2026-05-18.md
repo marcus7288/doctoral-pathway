@@ -56,7 +56,7 @@
 ---
 
 **How to use this template:**  
-1. Copy this file and rename it: `session-log-2026-05-18.md` (use your actual date)  
+1. Copy this file and rename it: `session-log-2026-09-01.md` (use your actual date — first session is September 1, 2026)  
 2. Fill in all sections — even half a sentence per section is enough  
 3. The "Connection to teaching" and "Connection to research" sections are what distinguish this from ordinary notes — always fill these in  
 4. Commit to GitHub with: `[ocw] 6.1200J session log - [brief topic summary]`

@@ -2,7 +2,7 @@
 ### Doctoral Pathway — Professor Mark Maine
 
 *Covers: Rocketbook Everyday Planner + Rocketbook Core*  
-*Last updated: May 2026*
+*Last updated: August 2026*
 
 ---
 
@@ -40,7 +40,7 @@ After Friday's commit, scan the weekly spread and send it to **OneDrive** (or Go
 
 ### Monthly Spread → OCW Course Tracker
 
-Use one monthly spread per OCW course. For **6.1200J** (May 18 – August 3, 2026), label the spread "6.1200J Discrete Math" and mark the 10 weeks across the month grids:
+Use one monthly spread per OCW course. For **6.1200J** (September 1 – November 10, 2026), label the spread "6.1200J Discrete Math" and mark the 10 weeks across the month grids:
 
 - Week 1–2: Propositions, Logic, Proofs
 - Week 3–4: Induction, State Machines
@@ -57,9 +57,9 @@ Check off each week as Friday's commit lands. This monthly view makes it immedia
 
 Use the two annual spreads as a long-range milestone map. Mark the following across the timeline:
 
-- **May 18, 2026** — 6.1200J begins
+- **September 1, 2026** — 6.1200J begins
 - **Aug 3, 2026** — 6.1200J complete
-- **Fall 2026** — 6.006 Algorithms begins
+- **Spring 2027** — 6.006 Algorithms begins
 - **Jan 15, 2027** — Ed.D. applications due
 - **Aug 2027** — Ed.D. enrollment
 - **May 2031** — Dissertation defense

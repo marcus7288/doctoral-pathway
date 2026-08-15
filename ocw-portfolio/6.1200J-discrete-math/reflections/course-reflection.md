@@ -1,6 +1,6 @@
 # 6.1200J — Course Reflection
 ### Mathematics for Computer Science
-#### Written at completion — Target: August 3, 2026
+#### Written at completion — Target: November 10, 2026
 
 ---
 

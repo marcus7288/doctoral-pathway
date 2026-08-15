@@ -2,7 +2,7 @@
 ## May – August 2026
 
 **Professor Maine | Evangel University**  
-**Phase:** Pre-program grounding before Fall 2026 doctoral entry  
+**Phase:** Pre-program grounding before August 2027 doctoral enrollment  
 **Credit Hours:** Self-directed (not yet enrolled)  
 **Connection to Dissertation:** Building scholarly foundation in CS education, trauma-informed security, faith-technology integration, and AI discernment
 
@@ -76,4 +76,4 @@
 
 ---
 
-*Last updated: May 2026*
+*Last updated: August 2026*

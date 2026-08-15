@@ -143,7 +143,7 @@ doctoral-pathway/
 │   ├── tools-setup.md                 ← Instapaper + @Voice + Zotero
 │   └── vscode-github-setup.md         ← VS Code + Git workflow
 ├── ocw-portfolio/
-│   ├── 6.1200J-discrete-math/         ← Active; starts May 18, 2026
+│   ├── 6.1200J-discrete-math/         ← Starting September 1, 2026
 │   │   ├── README.md                  ← Progress tracker (10-week table)
 │   │   ├── notes/session-log-template.md
 │   │   ├── problem-sets/ps-template.md

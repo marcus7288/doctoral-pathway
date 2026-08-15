@@ -567,4 +567,4 @@ One-line note for my annotated bibliography:
 *Based on Adler, M. J., & Van Doren, C. (1972). How to read a book (Rev. ed.). Simon & Schuster.*
 
 *Professor Maine | Evangel University | Doctoral Program*  
-*Last updated: May 2026*
+*Last updated: August 2026*

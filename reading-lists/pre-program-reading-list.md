@@ -468,7 +468,7 @@ Use these search strategies in the ACM Digital Library to extend beyond this cur
 
 ## Suggested Pre-Program Reading Order
 
-Work through this sequence before Fall 2026. Pair each book with its associated articles before moving on.
+Work through this sequence before August 2027 enrollment. Pair each book with its associated articles before moving on.
 
 ```
 Phase 1 — Foundation (May–June 2026)
@@ -588,7 +588,7 @@ Ongoing — ICER Browsing (throughout, via SIGCSE membership)
 
 - **SIGCSE Membership (joined May 2026):** Full access to ACM Digital Library through your SIGCSE membership — all SIGCSE Symposium and ICER proceedings are available. Log in at [dl.acm.org](https://dl.acm.org) using your ACM credentials. This covers the majority of articles on this list at no additional cost.
 - **SIGCSE Listserv (sigcse-members):** Subscribe and lurk — faculty post teaching questions, share syllabi, and surface current debates. Excellent pre-program orientation to the community's live concerns.
-- **SIGCSE Mentoring Program:** Available to new members and doctoral students. Consider requesting a mentor with a CS education doctorate before Fall 2026.
+- **SIGCSE Mentoring Program:** Available to new members and doctoral students. Consider requesting a mentor with a CS education doctorate before August 2027.
 - **Google Scholar:** Search title + author name for any articles not in the ACM DL. Many freely available PDFs are linked directly.
 - **ResearchGate:** Authors often post their own papers. Message authors directly for anything behind a non-ACM paywall — most respond within a week.
 - **HPL2:** Free PDF at [nap.edu](https://nap.edu) — no paywall.

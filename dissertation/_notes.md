@@ -127,4 +127,4 @@ These papers should be read analytically (with Adler worksheet) before the propo
 
 ---
 
-*Professor Maine | Evangel University | Last updated: May 2026*
+*Professor Maine | Evangel University | Last updated: August 2026*
