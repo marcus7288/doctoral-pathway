@@ -1,8 +1,8 @@
 # Weekly Study Log — Fall 2026
-## August – December 2026
+## September – November 2026
 
 **Professor Maine | Evangel University**  
-**Phase:** Year 1, Semester 1 — Program Entry  
+**Phase:** Pre-Program — 6.1200J active (September 1 – November 10, 2026)  
 **Reading List:** [Fall 2026 Reading List](reading-list.md)  
 **Full Guide:** [Independent Study Guide](../../docs/independent-study-guide.md)
 
@@ -48,13 +48,11 @@
 
 ## Monthly Totals
 
-| Month | Target Hours | Actual Hours | Books Completed | Articles Read |
+| Month | Target Hours | Actual Hours | OCW Progress | Articles Read |
 |---|---|---|---|---|
-| August 2026 | 5–8/wk | | | |
-| September 2026 | 5–8/wk | | | |
-| October 2026 | 5–8/wk | | | |
-| November 2026 | 5–8/wk | | | |
-| December 2026 | 5–8/wk | | | |
+| September 2026 | 8–10/wk | | 6.1200J weeks 1–4 | |
+| October 2026 | 8–10/wk | | 6.1200J weeks 5–8 | |
+| November 2026 | 8–10/wk | | 6.1200J weeks 9–10 complete | |
 
 ---
 

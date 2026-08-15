@@ -10,8 +10,8 @@
 **Total study hours this month:** ___  
 **Texts completed:** ___  
 **Articles read:** ___  
-**6.1200J — complete:** [ ]  
-**6.006 — begins:** [ ]
+**Guzdial (2015) — progress:** ___  
+**6.1200J — begins next month (September 1):** [ ] Ready
 
 ---
 
@@ -52,14 +52,14 @@
 
 ```
 
-**6.1200J should be complete this month — what is your overall takeaway from that course?**
+**6.1200J begins September 1 — what gaps or anxieties are you bringing into it?**
 
 ```
 
 
 ```
 
-**As you begin 6.006 (Algorithms), what are you most uncertain about?**
+**How has the summer reading shaped your understanding of your dissertation topic?**
 
 ```
 

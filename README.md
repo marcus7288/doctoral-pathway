@@ -39,7 +39,7 @@ doctoral-project/
 │   └── vscode-github-setup.md         ← VS Code cloning & commit workflow
 │
 ├── ocw-portfolio/                     ← MIT OpenCourseWare self-study
-│   ├── 6.1200J-discrete-math/         ← Starting May 18, 2026
+│   ├── 6.1200J-discrete-math/         ← Starting September 1, 2026
 │   ├── 6.006-algorithms/
 │   ├── 6.046J-design-algorithms/
 │   ├── 6.5660-security/
@@ -83,12 +83,14 @@ doctoral-project/
 
 | Document | Description |
 |---|---|
+| [**Getting Started**](docs/getting-started.md) | **Start here — your first four weeks, day by day** |
 | [Doctoral Schedule](schedule/doctoral-schedule.md) | Full 4–5 year pathway (May 2026 – August 2031) |
+| [Milestones Checklist](resources/doctoral-milestones-checklist.md) | Every milestone from May 2026 to August 2031 |
 | [Independent Study Guide](docs/independent-study-guide.md) | Evidence-of-work framework & session standards |
 | [Adler Reading Worksheet](docs/adler-reading-worksheet.md) | Structured reading guide based on *How to Read a Book* |
 | [Tools Setup Guide](docs/tools-setup.md) | Instapaper, @Voice, and Zotero workflows |
 | [VS Code + GitHub Setup](docs/vscode-github-setup.md) | Clone repo, edit locally, commit & push |
-| [Pre-Program Reading List](reading-lists/pre-program-reading-list.md) | CS Education reading before Fall 2027 enrollment |
+| [Pre-Program Reading List](reading-lists/pre-program-reading-list.md) | CS Education reading before August 2027 enrollment |
 
 ---
 
@@ -96,11 +98,11 @@ doctoral-project/
 
 | # | Course | Code | Timeline | Status |
 |---|---|---|---|---|
-| 1 | Mathematics for Computer Science | 6.1200J | Summer 2026 | 🟡 Starting May 18 |
-| 2 | Introduction to Algorithms | 6.006 | Fall 2026 | ⬜ Upcoming |
-| 3 | Design & Analysis of Algorithms | 6.046J | Ed.D. Year 1–2 | ⬜ Upcoming |
-| 4 | Computer Systems Security | 6.5660 | Ed.D. Year 1–2 | ⬜ Upcoming |
-| 5 | Deep Learning | 6.7960 | Year 3 (May 2029) | ⬜ Upcoming |
+| 1 | Mathematics for Computer Science | 6.1200J | Fall 2026 (Sept 1 – Nov 10) | 🟡 Starting Sept 1 |
+| 2 | Introduction to Algorithms | 6.006 | Spring 2027 (Feb – May) | ⬜ Upcoming |
+| 3 | Design & Analysis of Algorithms | 6.046J | Summer 2027 (June – Aug) | ⬜ Upcoming |
+| 4 | Computer Systems Security | 6.5660 | Ed.D. Year 1 (Fall 2027) | ⬜ Upcoming |
+| 5 | Deep Learning | 6.7960 | Ed.D. Year 2 (May 2029) | ⬜ Upcoming |
 
 ---
 
@@ -134,8 +136,11 @@ doctoral-project/
 
 | Milestone | Target |
 |---|---|
-| Begin 6.1200J (Discrete Math) | May 18, 2026 |
+| Begin 6.1200J (Discrete Math) | September 1, 2026 |
+| Complete 6.1200J | November 10, 2026 |
 | Ed.D. applications submitted | January 15, 2027 |
+| Begin 6.006 (Algorithms) | February 1, 2027 |
+| Begin 6.046J (Design & Analysis) | June 2027 |
 | Ed.D. enrollment begins | August 2027 |
 | First conference paper submitted | January 2029 |
 | Dissertation proposal defense | November 2029 |
@@ -161,4 +166,4 @@ doctoral-project/
 
 ---
 
-*Last updated: May 2026*
+*Last updated: August 2026 · 6.1200J start revised to September 1, 2026*

@@ -1,10 +1,10 @@
 # Independent Study Reading List — Fall 2026
-## August – December 2026
+## September – November 2026
 
 **Professor Maine | Evangel University**  
-**Phase:** Year 1, Semester 1 — Program Entry  
-**Credit Hours:** To be confirmed with advisor  
-**Connection to Dissertation:** To be defined in consultation with faculty advisor
+**Phase:** Pre-Program — 6.1200J active (Ed.D. enrollment is August 2027)  
+**OCW Focus:** 6.1200J Mathematics for Computer Science (Sept 1 – Nov 10)  
+**Connection to Dissertation:** Discrete math grounding for CS education research; number theory connects to cybersecurity teaching at Evangel
 
 ---
 

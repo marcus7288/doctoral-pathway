@@ -1,8 +1,8 @@
 # 6.1200J — Mathematics for Computer Science
 ### MIT OpenCourseWare · Spring 2024
 
-**Status:** 🟡 In progress — started May 18, 2026  
-**Target completion:** August 3, 2026  
+**Status:** 🟡 Starting September 1, 2026  
+**Target completion:** November 10, 2026  
 **Pace:** 8–10 hours per week  
 **Resource:** [ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/)
 
@@ -30,16 +30,16 @@ Discrete mathematics is the foundational gap to close before any doctoral-level 
 
 | Week | Lectures | Problem set | Notes committed | Reflection |
 |---|---|---|---|---|
-| 1 (May 18) | ☐ | ☐ | ☐ | — |
-| 2 (May 25) | ☐ | ☐ | ☐ | — |
-| 3 (Jun 1) | ☐ | ☐ | ☐ | — |
-| 4 (Jun 8) | ☐ | ☐ | ☐ | — |
-| 5 (Jun 15) | ☐ | ☐ | ☐ | — |
-| 6 (Jun 22) | ☐ | ☐ | ☐ | — |
-| 7 (Jun 29) | ☐ | ☐ | ☐ | — |
-| 8 (Jul 6) | ☐ | ☐ | ☐ | — |
-| 9 (Jul 13) | ☐ | ☐ | ☐ | — |
-| 10 (Jul 20) | ☐ | ☐ | ☐ | ☐ |
+| 1 (Sept 1) | ☐ | ☐ | ☐ | — |
+| 2 (Sept 8) | ☐ | ☐ | ☐ | — |
+| 3 (Sept 15) | ☐ | ☐ | ☐ | — |
+| 4 (Sept 22) | ☐ | ☐ | ☐ | — |
+| 5 (Sept 29) | ☐ | ☐ | ☐ | — |
+| 6 (Oct 6) | ☐ | ☐ | ☐ | — |
+| 7 (Oct 13) | ☐ | ☐ | ☐ | — |
+| 8 (Oct 20) | ☐ | ☐ | ☐ | — |
+| 9 (Oct 27) | ☐ | ☐ | ☐ | — |
+| 10 (Nov 3) | ☐ | ☐ | ☐ | ☐ |
 
 ---
 
@@ -79,4 +79,4 @@ The logic and formal notation connects directly to Dissertation Topic B (cyberse
 
 ---
 
-*6.1200J Portfolio · CS Education Doctoral Pathway · Evangel University · Started May 18, 2026*
+*6.1200J Portfolio · CS Education Doctoral Pathway · Evangel University · Starting September 1, 2026*

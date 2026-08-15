@@ -1,7 +1,7 @@
 # 6.006 — Introduction to Algorithms
 ### MIT OpenCourseWare
 
-**Status:** ⬜ Upcoming — begins Fall 2026  
+**Status:** ⬜ Upcoming — begins February 1, 2027  
 **Prerequisite:** 6.1200J Mathematics for Computer Science (complete first)  
 **Resource:** [ocw.mit.edu](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
 
@@ -23,4 +23,4 @@ Algorithms is the core of computer science doctoral preparation. Understanding c
 └── reflections/
 ```
 
-*This folder will be populated when the course begins in Fall 2026.*
+*This folder will be populated when the course begins in February 2027.*

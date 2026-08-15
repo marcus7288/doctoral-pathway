@@ -1,7 +1,7 @@
 # 6.046J — Design and Analysis of Algorithms
 ### MIT OpenCourseWare
 
-**Status:** ⬜ Upcoming — begins Spring 2027  
+**Status:** ⬜ Upcoming — begins June 2027  
 **Prerequisite:** 6.006 Introduction to Algorithms  
 **Resource:** [ocw.mit.edu](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/)
 
@@ -23,4 +23,4 @@ Advanced algorithm design — NP-completeness, approximation algorithms, randomi
 └── reflections/
 ```
 
-*This folder will be populated when the course begins in Spring 2027.*
+*This folder will be populated when the course begins in June 2027.*

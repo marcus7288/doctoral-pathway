@@ -2,7 +2,7 @@
 ## Grounded in *How People Learn II* (National Academies, 2018)
 
 **Professor Maine | Evangel University**  
-**Goal:** General scholarly grounding before Fall 2026 doctoral program entry  
+**Goal:** General scholarly grounding before Ed.D. enrollment (August 2027)  
 **Focus:** CS Education — pedagogy, equity, cognition, and cybersecurity curriculum
 
 ---
@@ -15,8 +15,8 @@ This reading list is organized around the seven major themes of *How People Lear
 
 | Tier | Label | Meaning |
 |---|---|---|
-| ⭐⭐⭐ | Essential | Read analytically (full Adler worksheet) before Fall 2026 |
-| ⭐⭐ | Important | Read analytically — can extend into Year 1 coursework |
+| ⭐⭐⭐ | Essential | Read analytically (full Adler worksheet) before Ed.D. enrollment (Aug 2027) |
+| ⭐⭐ | Important | Read analytically — can extend into Ed.D. Year 1 coursework |
 | ⭐ | Recommended | Inspectional read now; return analytically as relevant |
 
 **Suggested sequence:** Read the anchor text (HPL2) first. Then move theme by theme, pairing one book with 2–3 articles before moving on. Log all sessions in your [weekly study log](../independent-study/Pre-Program/weekly-log.md).
