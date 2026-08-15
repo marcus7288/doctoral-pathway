@@ -1,7 +1,7 @@
 # Research Tools Setup Guide
 
 **Professor Maine | Doctoral Program — Evangel University**  
-*Instapaper + @Voice Aloud Reader for Doctoral Research*
+*Instapaper + Text-to-Speech tools for Doctoral Research (Mac)*
 
 ---
 
@@ -10,7 +10,7 @@
 This guide covers the setup and optimal workflow for two core tools in your doctoral research pipeline:
 
 1. **Instapaper** — Save, organize, annotate, and highlight articles and web content
-2. **@Voice Aloud Reader** (Android) — Convert research materials to audio for listening on the go
+2. **Text-to-Speech** — Convert research materials to audio for listening on the go (Mac options: Speechify, or macOS built-in Speak Selection)
 
 Together, these tools allow you to capture research from any source, organize it by theme, and consume it both visually and auditorially — making the most of limited time during an active doctoral program.
 
@@ -26,10 +26,11 @@ Instapaper is a read-later service that saves articles, blog posts, and web page
 
 ### 1.1 Account Setup
 
-1. Create a free account at instapaper.com (Premium recommended for full highlighting features)
-2. Install the **browser extension** (Chrome, Firefox, or Edge) for one-click saving
-3. Install the **Android app** from the Google Play Store
-4. Enable **background sync** on mobile so saved articles are available offline
+1. **Account:** Instapaper Premium — already active ✅
+2. **Browser extension** (Chrome or Safari) for one-click saving — available at instapaper.com/save
+3. **Mac app** — available from the Mac App Store
+4. **Android app** — available from Google Play Store
+5. Enable **background sync** on both platforms so saved articles are available offline
 
 ### 1.2 Recommended Folder Structure
 
@@ -60,13 +61,13 @@ Click the Instapaper extension button on any article or web page. It saves immed
 **Method 2 — Email**  
 Email any article link or content to your personal Instapaper email address (found in account settings). Useful for content shared via email (newsletter, professor recommendations).
 
-**Method 3 — Android Share Sheet**  
-On Android, use the system Share button → select Instapaper. Works from Chrome, Google Scholar, research apps, email, etc.
+**Method 3 — iOS/Mac Share**  
+On iPhone, use the system Share button → select Instapaper. On Mac, use the browser extension or drag the URL to the Instapaper tab. Works from Safari, Chrome, Google Scholar, research apps, and email.
 
 **Method 4 — IFTTT or Zapier Integration**  
 Automate saving from specific RSS feeds, Twitter/X lists, or academic newsletters directly to your Instapaper queue.
 
-**Tip for PDFs:** Instapaper handles HTML articles best. For PDFs, save to Google Drive or Zotero and use @Voice Aloud Reader directly on the PDF file.
+**Tip for PDFs:** Instapaper handles HTML articles best. For PDFs, save to Google Drive or Zotero and use your TTS tool (Speechify or macOS Speak Selection) directly on the PDF file.
 
 ### 1.4 Highlighting and Annotation in Instapaper
 
@@ -108,48 +109,66 @@ Use the search feature to:
 
 ---
 
-## Tool 2 — @Voice Aloud Reader (Android)
+## Tool 2 — Text-to-Speech
 
 ### What It Is
 
-@Voice Aloud Reader is an Android text-to-speech application that can read aloud virtually any text format: web pages, documents, PDFs, ePub files, and Instapaper articles. For doctoral study, it transforms commute time, exercise time, and household tasks into productive listening sessions.
+Text-to-speech (TTS) converts research articles, PDFs, and web content into audio you can listen to during commutes, exercise, or household tasks. For doctoral study, it transforms time you can't read with your eyes into productive listening sessions.
+
+**Your setup — two platforms:**
+
+| Platform | Tool | Notes |
+|---|---|---|
+| **Android** | **@Voice Aloud Reader** | Primary mobile TTS; reads Instapaper queue directly |
+| **Mac** | **macOS Speak Selection** | Built-in, free — no install needed |
+
+---
+
+### 2.1 Android — @Voice Aloud Reader
 
 **Google Play:** Search "@Voice Aloud Reader" by Hyperionics Technology  
 **Website:** [https://hyperionics.com/atVoice/](https://hyperionics.com/atVoice/)
 
-### 2.1 Installation and Initial Setup
-
-1. Install from Google Play Store
-2. Launch and complete the setup wizard
-3. Download a high-quality TTS voice (recommended: Google's WaveNet voices or any Premium voice engine)
+**Setup:**
+1. Install from Google Play Store and complete the setup wizard
+2. Download a high-quality TTS voice (Google WaveNet voices recommended)
+3. Tap menu (≡) → Add Source → Instapaper → log in to connect your queue
 
 **Recommended voice settings for academic content:**
-- Speed: 1.2x–1.5x (slightly faster than natural speech; adjust to your preference)
+- Speed: 1.2x–1.5x (slightly faster than natural speech)
 - Pitch: Default (0)
-- Voice: Male or female — choose whatever you find least fatiguing over 45+ minutes
+- Voice: Choose whatever you find least fatiguing over 45+ minutes
 
-### 2.2 Connecting Instapaper to @Voice
+**Playlist feature:** Add multiple articles and let @Voice read continuously — useful for long commutes or exercise sessions.
 
-@Voice can read your Instapaper articles directly:
-
-1. In @Voice, tap the menu (≡) → Add Source → Instapaper
-2. Log in with your Instapaper credentials
-3. @Voice will display your Instapaper queue and folders
-4. Tap any article to have it read aloud immediately
-
-**Playlist feature:** Add multiple articles to a playlist and let @Voice read through them continuously — useful for long commutes or exercise sessions.
-
-### 2.3 Reading Local Files (PDFs and Documents)
-
-@Voice can read PDFs and document files stored on your Android device:
-
-1. Transfer the PDF to your Android device (via Google Drive, OneDrive, or USB)
+**Reading local PDFs:**
+1. Transfer the PDF to your Android device via Google Drive or OneDrive
 2. In @Voice, tap (+) Add File → navigate to the file
 3. The app will extract and read the text
 
-**Note:** Scanned PDFs (image-based) may not read well. Use PDFs with embedded text, or run through an OCR tool (Adobe Acrobat, Google Drive's built-in OCR) first.
+**Note:** Scanned PDFs (image-based) may not read well. Use PDFs with embedded text, or run through Google Drive's built-in OCR first.
 
-### 2.4 Optimal Listening Strategies for Academic Reading
+---
+
+### 2.2 Mac — macOS Speak Selection (Built-In)
+
+No install needed — this is already on your Mac.
+
+**Setup (one time):**
+1. Open **System Settings** → **Accessibility** → **Spoken Content**
+2. Enable **Speak Selection**
+3. Set the keyboard shortcut (default: **Option+Esc**)
+4. Choose a voice — "Siri Voice 2" or any Neural voice sounds most natural for extended listening
+
+**To use:**
+1. Select any text on screen (article, PDF, Markdown file, website)
+2. Press **Option+Esc** to start reading; press again to stop
+
+**Best for:** Quick listening of selected passages, reading Markdown files in VS Code, or listening to a web article without switching to your phone.
+
+---
+
+### 2.3 Optimal Listening Strategies for Academic Reading
 
 Listening to academic content is different from listening to audiobooks. Use these strategies:
 
@@ -157,13 +176,13 @@ Listening to academic content is different from listening to audiobooks. Use the
 Before hitting play, skim the article or chapter visually. Identify section headings and the key argument. This gives your ear a mental map of what to listen for.
 
 **Active listening with notes:**  
-Keep your phone's notes app or a small notebook handy. When you hear something important, pause and jot:
+Keep a notebook or Apple Notes open. When you hear something important, pause and jot:
 - The key claim
 - A page reference or section title
 - Your immediate reaction
 
 **Paired with Instapaper:**  
-Use @Voice to do your first "inspectional read" of an article by listening to it. Then open the same article in Instapaper for your analytical read with highlighting and notes.
+Use Speechify to do your first "inspectional read" of an article by listening. Then open the same article in Instapaper for your analytical read with highlighting and notes.
 
 **Speed calibration:**
 - 1.0x — Dense technical material, new concepts, unfamiliar field
@@ -173,7 +192,7 @@ Use @Voice to do your first "inspectional read" of an article by listening to it
 **Listening log:**  
 Add listening time to your weekly study log. Audio review of research counts as study time — especially when you're following up with written notes.
 
-### 2.5 Suggested Listening Schedule
+### 2.4 Suggested Listening Schedule
 
 | Time Slot | Duration | Suggested Content |
 |---|---|---|
@@ -195,12 +214,12 @@ Twitter/X         →    or share sheet)
 Email newsletter  →
 
 
-READ & ANNOTATE          LISTEN               PROCESS
-───────────────         ─────────            ─────────
-Instapaper              @Voice Aloud         Reading Notes .md
-(highlight + notes) ←── Instapaper sync  →  GitHub Repo
-                                             Zotero Citation
-                                             Annotated Bibliography
+READ & ANNOTATE          LISTEN                      PROCESS
+───────────────         ─────────────────────────   ─────────
+Instapaper              Android: @Voice Aloud        Reading Notes .md
+(highlight + notes) ←── Instapaper sync         →   GitHub Repo
+                        Mac: Speak Selection         Zotero Citation
+                        (selected text)              Annotated Bibliography
 
 
 SHARE WITH ADVISOR       WRITE
@@ -228,21 +247,28 @@ GitHub push          →   Comprehensive Exam Responses
 
 ## Quick Setup Checklist
 
-### Instapaper
-- [ ] Account created at instapaper.com
-- [ ] Browser extension installed
-- [ ] Android app installed and logged in
+### Instapaper (Premium — Mac + Android)
+- [x] Instapaper Premium account active ✅
+- [ ] Browser extension installed in Chrome or Safari (Mac)
+- [ ] Mac app installed from Mac App Store
+- [ ] Android app installed from Google Play
 - [ ] Folder structure created (see 1.2)
 - [ ] Highlight color system set up (see 1.4)
-- [ ] Test: Save one article and annotate it
+- [ ] Test: Save one article and annotate it on each platform
 
-### @Voice Aloud Reader
+### @Voice Aloud Reader (Android)
 - [ ] App installed from Google Play
 - [ ] High-quality TTS voice downloaded
 - [ ] Speed calibrated (start at 1.2x)
 - [ ] Instapaper account connected
 - [ ] Test: Listen to one saved article end-to-end
 - [ ] Listening log added to weekly study log template
+
+### macOS Speak Selection (Mac — Built-In)
+- [ ] Enabled in System Settings → Accessibility → Spoken Content
+- [ ] Keyboard shortcut set (Option+Esc)
+- [ ] Neural voice selected
+- [ ] Test: Select a paragraph in VS Code and press Option+Esc
 
 ---
 

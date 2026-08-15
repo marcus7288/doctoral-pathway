@@ -19,7 +19,7 @@
 
 Before starting, confirm you have these installed:
 
-- [ ] **Git** — [git-scm.com/downloads](https://git-scm.com/downloads) — download and install if not present
+- [ ] **Git** — Install via Homebrew (recommended): open Terminal and run `brew install git`. Or download from [git-scm.com/downloads](https://git-scm.com/downloads). If Homebrew isn't installed yet: [brew.sh](https://brew.sh)
 - [ ] **VS Code** — [code.visualstudio.com](https://code.visualstudio.com) — install if not present
 - [ ] **GitHub account** — you already have this ✅
 - [ ] **Your doctoral repo exists on GitHub** — push your files first if not already done
@@ -32,7 +32,7 @@ To check if Git is installed: open any terminal and type `git --version`. If you
 
 > Skip this if you've used Git on this machine before.
 
-Open a terminal (PowerShell on Windows, Terminal on Mac) and run these two commands, replacing the values with your actual name and email:
+Open Terminal (Applications → Utilities → Terminal, or Spotlight: ⌘Space → type Terminal) and run these two commands, replacing the values with your actual name and email:
 
 ```bash
 git config --global user.name "Mark Maine"
@@ -57,7 +57,7 @@ Launch VS Code. You should see the welcome screen.
 
 ### Step 2 — Open the Source Control Panel
 
-Click the **branch icon** in the left sidebar (third icon down, looks like a node diagram), or press `Ctrl+Shift+G` (Windows) / `Cmd+Shift+G` (Mac).
+Click the **branch icon** in the left sidebar (third icon down, looks like a node diagram), or press `Cmd+Shift+G` (Windows) / `Cmd+Shift+G` (Mac).
 
 ### Step 3 — Sign In to GitHub
 
@@ -80,14 +80,14 @@ Click the **branch icon** in the left sidebar (third icon down, looks like a nod
 
 ### Step 2 — Clone via VS Code
 
-1. In VS Code, press `Ctrl+Shift+P` (Windows) / `Cmd+Shift+P` (Mac) to open the **Command Palette**
+1. In VS Code, press `Cmd+Shift+P` to open the **Command Palette**
 2. Type `Git: Clone` and select it
 3. Paste your repo URL and press `Enter`
 4. A folder picker opens — choose where to save the repo on your computer
 
    **Recommended location:**
    ```
-   C:\Users\secon\Documents\doctoral-project\
+   ~/Documents/doctoral-project/
    ```
    or wherever you keep your working files — just not inside OneDrive if you can avoid it (Git and OneDrive sync can conflict)
 
@@ -96,7 +96,7 @@ Click the **branch icon** in the left sidebar (third icon down, looks like a nod
 
 ### Step 3 — Confirm the Clone Worked
 
-You should now see your file tree in the VS Code **Explorer** panel (first icon in the left sidebar, or `Ctrl+Shift+E`). You'll see:
+You should now see your file tree in the VS Code **Explorer** panel (first icon in the left sidebar, or `Cmd+Shift+E`). You'll see:
 
 ```
 doctoral-project/
@@ -117,7 +117,7 @@ If you see these folders, the clone was successful. ✅
 
 ## Part 4 — Install Recommended Extensions
 
-Press `Ctrl+Shift+X` to open the Extensions panel. Search for and install each of these:
+Press `Cmd+Shift+X` to open the Extensions panel. Search for and install each of these:
 
 ### Extension 1 — Markdown All in One
 **Search:** `Markdown All in One`  
@@ -127,7 +127,7 @@ Press `Ctrl+Shift+X` to open the Extensions panel. Search for and install each o
 **What it gives you:**
 - `Tab` to jump between table cells (makes filling in your weekly log much faster)
 - Auto-formatting for lists and headings
-- Keyboard shortcuts for bold (`Ctrl+B`), italic (`Ctrl+I`), etc.
+- Keyboard shortcuts for bold (`Cmd+B`), italic (`Cmd+I`), etc.
 - Table of contents generation
 
 ### Extension 2 — Markdown Preview Enhanced
@@ -150,9 +150,9 @@ Press `Ctrl+Shift+X` to open the Extensions panel. Search for and install each o
 
 ### Opening a File to Edit
 
-1. In the **Explorer** panel (`Ctrl+Shift+E`), click any `.md` file to open it
+1. In the **Explorer** panel (`Cmd+Shift+E`), click any `.md` file to open it
 2. To open the live preview alongside it:
-   - Press `Ctrl+Shift+V` (built-in preview), **or**
+   - Press `Cmd+Shift+V` (built-in preview), **or**
    - Right-click the tab → **Open Preview to the Side** (Markdown Preview Enhanced)
 3. You'll have the raw Markdown on the left and the rendered preview on the right
 
@@ -162,7 +162,7 @@ Press `Ctrl+Shift+X` to open the Extensions panel. Search for and install each o
 [Explorer panel] | [weekly-log.md editor] | [Live Preview]
 ```
 
-Press `Ctrl+\` to split the editor and arrange as above.
+Press `Cmd+\` to split the editor and arrange as above.
 
 ### Filling In the Weekly Log — Step by Step
 
@@ -175,7 +175,7 @@ Press `Ctrl+\` to split the editor and arrange as above.
    - Press `Tab` to move between cells (Markdown All in One handles alignment automatically)
 4. Add 2–3 bullet points under **Key Insights**
 5. Fill in **Next Week's Plan**
-6. Save: `Ctrl+S`
+6. Save: `Cmd+S`
 
 ### Filling In the Adler Worksheet — Step by Step
 
@@ -184,7 +184,7 @@ Press `Ctrl+\` to split the editor and arrange as above.
    - Example: `reading-notes/guzdial-2015-learner-centered.md`
 3. Open the file and fill in the bibliographic information at the top
 4. Work through the worksheet section by section as you read
-5. Save after each section: `Ctrl+S`
+5. Save after each section: `Cmd+S`
 6. Checkboxes (` - [ ] `) can be clicked directly in the preview panel, or typed manually in the editor
 
 ---
@@ -195,7 +195,7 @@ After every editing session, push your changes so they're saved to GitHub.
 
 ### Using the VS Code GUI (Recommended)
 
-1. Click the **Source Control** icon in the left sidebar (`Ctrl+Shift+G`)
+1. Click the **Source Control** icon in the left sidebar (`Cmd+Shift+G`)
 2. You'll see a list of files you've changed under **Changes**
 3. Hover over the files you want to commit → click the **+** icon to **Stage** them
    - Or click **+** next to **Changes** to stage everything at once
@@ -209,7 +209,7 @@ After every editing session, push your changes so they're saved to GitHub.
    ```
    Add monthly reflection: May 2026
    ```
-5. Press `Ctrl+Enter` to commit
+5. Press `Cmd+Enter` to commit
 6. Click the **Sync Changes** button (circular arrows) that appears, or press the **...** menu → **Push**
 
 ### Using the Integrated Terminal (Optional)
@@ -288,12 +288,12 @@ Every commit with a `[ocw]` prefix is evidence of mathematical self-study. Every
 
 | Problem | Solution |
 |---|---|
-| "git is not recognized" | Git isn't installed or not in PATH — reinstall from git-scm.com |
+| "command not found: git" | Git isn't installed — run `brew install git` in Terminal |
 | VS Code asks for password every push | Set up a GitHub Personal Access Token (Settings → Developer Settings → PAT) |
 | "Please tell me who you are" error | Run `git config --global user.name` and `git config --global user.email` (Part 1) |
 | Merge conflict warning | Run `git pull` first, resolve conflicts, then commit |
 | Preview not showing checkboxes | Use **Markdown Preview Enhanced** extension, not the built-in preview |
-| Table not formatting correctly | Markdown All in One — press `Alt+Shift+F` to auto-format the table |
+| Table not formatting correctly | Markdown All in One — press `Option+Shift+F` to auto-format the table |
 | Changes not showing in Source Control | Make sure you opened the cloned folder (`File → Open Folder`), not just a file |
 
 ---
@@ -302,18 +302,18 @@ Every commit with a `[ocw]` prefix is evidence of mathematical self-study. Every
 
 | Action | Shortcut |
 |---|---|
-| Open Explorer (file tree) | `Ctrl+Shift+E` |
-| Open Source Control | `Ctrl+Shift+G` |
-| Open Command Palette | `Ctrl+Shift+P` |
+| Open Explorer (file tree) | `Cmd+Shift+E` |
+| Open Source Control | `Cmd+Shift+G` |
+| Open Command Palette | `Cmd+Shift+P` |
 | Open integrated terminal | `` Ctrl+` `` |
-| Split editor (edit + preview) | `Ctrl+\` |
-| Open Markdown preview | `Ctrl+Shift+V` |
-| Save file | `Ctrl+S` |
-| Bold text | `Ctrl+B` |
-| Italic text | `Ctrl+I` |
+| Split editor (edit + preview) | `Cmd+\` |
+| Open Markdown preview | `Cmd+Shift+V` |
+| Save file | `Cmd+S` |
+| Bold text | `Cmd+B` |
+| Italic text | `Cmd+I` |
 | Jump between table cells | `Tab` |
-| Format table | `Alt+Shift+F` |
-| Commit (after staging) | `Ctrl+Enter` |
+| Format table | `Option+Shift+F` |
+| Commit (after staging) | `Cmd+Enter` |
 
 ---
 
